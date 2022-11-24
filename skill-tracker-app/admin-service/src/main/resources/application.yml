@@ -1,0 +1,15 @@
+server:
+  port: 9005
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: skilltracker
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+
+  main:
+    allow-bean-definition-overriding: true
